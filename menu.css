@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  background:#652a0e;
+  color: #fafafa;
+}
+.navbar{
+  background-color: #fafada;
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  list-style: none;
+  display:  flex;
+  gap: 1rem;
+  
+}
+
+.nav-links a{
+ text-decoration: none;
+ color: chocolate;
+}
+
+.main-body{
+  text-align: center;
+  color: #fafada;
+  
+}
+
+#table {
+  background-color: #fafada;
+  margin-top: 10px;
+  color:#652a0e;
+  font-weight: bold;
+  margin-left:22px;
+}
+
+#table th{
+  background-color: chocolate;
+  color: #fafada;
+}
+
+.main-body button{
+  border: none;
+  background-color: chocolate;
+  width:400px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.main-body a {
+  color: #fafada;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-body img{
+  border-radius: 15px;
+  width: 70%;
+  height: 350px;
+}
+
+#Olives{
+  width:70%;
+  height: 150px;
+}
+
+.foot1{
+  padding: 5px;
+  font-size: 20px;
+  background: burlywood;
+  align-items: center ;
+  color:#652a0e;
+  margin-top: 10px;
+}
+
+.foot1 p{
+  text-align: center;
+  color:#652a0e;
+   margin-bottom: 5px;
+}
+
+.foot1 a{
+  text-decoration: none;
+  color: #fafada;
+  font-weight: bolder;
+  align-contents: center  ;
+  justify-content: flex-start;
+}
+
+.Collab img{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 15px;
+  margin-top: 20px;
+}

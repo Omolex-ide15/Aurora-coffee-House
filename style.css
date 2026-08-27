@@ -1,0 +1,257 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ text-transform: capitalize;
+}
+
+body {
+  min-height: 200vh;
+  background:  #652a0e;
+  color: #fafafa;
+}
+.navbar{
+  background-color: #fafada;
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav-links{
+  list-style: none;
+  display:  flex;
+  gap: 1rem;
+  
+}
+
+.nav-links a{
+ text-decoration: none;
+ color: chocolate;
+}
+
+.banner{
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4rem;
+  overflow: hidden;
+  color:#1a1a1a;
+}
+
+.bg-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; height: 100%;
+  background: url('./pngwing.com.png') no-repeat center center/cover;
+  z-index: 0;
+  filter: brightness(0.8);
+}
+
+.banner-text{
+  position: relative;
+  z-index: 1;
+  
+}
+
+
+.banner-text h1{
+  font-size: 3rem;
+  color: chocolate;
+  
+  
+}
+.banner-text p{
+  font-size: 1.2rem;
+  color:#fffada;
+  margin: 0.5rem 0 1rem;
+}
+
+.banner-btn {
+  text-decoration: none;
+  color: chocolate;
+  padding: 0.8rem 1.5rem ;
+  background-color: #fafada;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.main-body{
+  color: #fafada;
+  margin-left:10px ;
+}
+.main-body .head{
+  margin-bottom:5px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: chocolate;
+  border-radius: 5px;
+  margin-right:10px;
+  
+}
+.paragraphs{
+  font-size: 1rem;
+}
+.p1{
+  margin-bottom: 20px;
+  color: #fafada;
+  margin-left:10px ;
+  font-size: 1.2rem;
+}
+.image{
+  width:60px; 
+  height: 30%;
+  position: relative;
+  top:0;
+  bottom:0;
+  
+}
+.image img{
+  border-radius: 5px;
+  margin-left:80px;
+  
+}
+.Reasons{
+  font-size: 20px;
+  margin: 10px;
+}
+  
+  
+ 
+  
+.Reasons a{
+  font-weight: bold;
+  color: darkorange;
+  padding: 0.3rem;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.products {
+  font-size: 18px;
+  margin:10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+
+.products a{
+  color: darkorange;
+  text-decoration: none ;
+  font-weight: bold;
+}
+
+
+
+.foot1{
+  padding: 5px;
+  font-size: 20px;
+  background: burlywood;
+  align-items: center ;
+  color:#652a0e;
+  margin-top: 10px;
+}
+
+.foot1 p{
+  text-align: center;
+  color :#652a0e;
+   margin-bottom: 5px;
+}
+
+.foot1 a{
+  text-decoration: none;
+  color: #fafada;
+  font-weight: bolder;
+  align-contents: center  ;
+  justify-content: flex-start;
+}
+
+
+.media-section {
+  background: #fafada;
+  padding: 80px 0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.media-section h2 {
+  text-align: center;
+  font-size: 36px;
+  color:#652a0e;
+  margin: 0 0 32px;
+}
+
+.audio-card,
+.video-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background:#652a0e;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(75, 46, 43, 0.15);
+}
+
+.media-title {
+  color: #C8A882;
+  font-weight: 600;
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+/* Audio Styling */
+.custom-audio {
+  width: 100%;
+  height: 54px;
+  border-radius: 8px;
+}
+
+/* Makes the browser’s default controls fit the theme */
+.custom-audio::-webkit-media-controls-panel {
+  background-color: #FDF6EC;
+}
+
+.custom-audio::-webkit-media-controls-play-button,
+.custom-audio::-webkit-media-controls-mute-button
+{
+  background-color:#652a0e;
+  border-radius: 50%;
+}
+
+/* Video Styling */
+
+.video-card video{
+  width:400px; 
+  height: 200px; 
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+}
+
+.custom-video {
+  width: 100% ;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #000; /* while loading */
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .media-section {
+    padding: 60px 0;
+  }
+}

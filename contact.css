@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  background:#652a0e;
+  color: #fafafa;
+  
+}
+.navbar{
+  background-color: #fafada;
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  list-style: none;
+  display:  flex;
+  gap: 1rem;
+  
+}
+
+.nav-links a{
+ text-decoration: none;
+ color: chocolate;
+}
+
+
+
+.Get-intouch{
+  padding: 1rem 2rem;
+  color: #fafada;
+}
+
+
+.Contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+.Contact-image{
+  background-color:#fafada;
+  margin-top:3rem;
+  color: #652a0e;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 450px;
+  border-radius: 10px;
+ 
+  
+}
+
+.Contact-image img{
+  width:100%;
+  border-radius: 8px ;
+  
+  
+}
+
+.Contact-head {
+  color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+  text-align: center;
+}
+
+.Forms{
+  background: #fafada;
+  border-radius: 5px;
+  border: none;
+  max-width:100%;
+  padding-top: 1rem;
+  color:#652a0e;
+  
+}
+
+.Form-card{
+  display: flex ;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.text{
+  text-align: center;
+  padding: 0.4rem;
+}
+
+
+.text2{
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold ;
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+.form-group input{
+  margin-top: 5px;
+  
+}
+.form-group input:focus,
+.form-group textarea:focus{
+  border-color: chocolate;
+}
+
+.Form-card button{
+  width: 100%;
+  border:none;
+  height:30px ;
+  border-radius: 15px;
+  color:#fff8f0;
+  background-color:#652a0e;
+  cursor: pointer;
+}
+
+ .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: #fff8f0; /* light input fill */
+    font-size: 1rem;
+    color:#652a0e;
+    outline: none;
+    border: 1px solid #652a0e;
+    
+  }
+  .form-group select{
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%233b241d' d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 20px;
+    
+  }
+    
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group input[type="tel"]:focus,
+  .form-group input[type="password"]:focus,
+  .form-group select:focus,
+  .form-group textarea:focus{
+    border-color: chocolate;
+  }
+  
+  .Medias{
+    background-color:#fafada;
+    color:#652a0e;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+  }
+  
+  .social-head{
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .context{
+    font-size: 0.8rem;
+    padding-bottom:1.2rem;
+  }
+  
+  
+  .Socials label{
+    color: chocolate;
+    font-weight: bold;
+  }
+  
+  .Socials p{
+    font-weight: bold;
+  }
+  
+  .Contact-info label{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .Contact-info p{
+    font-weight: bold;
+    
+  }
+  
+  .Socials span{
+    color: chocolate;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  background :#652a0e;
+  color: #fafafa;
+}
+.navbar{
+  background-color: #fafada;
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  list-style: none;
+  display:  flex;
+  gap: 1rem;
+  
+}
+
+.nav-links a{
+ text-decoration: none;
+ color: chocolate;
+}
+
+.Coffee-Products{
+  padding: 1rem 2rem;
+  color: #fafada;
+}
+
+.Coffee-title{
+  color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+}
+
+.coffee-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+}
+
+.Coffee-image{
+  background-color:#fafada;
+  margin-top:3rem;
+  color: #652a0e;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.Coffee-image img{
+  width:100%;
+  border-radius: 8px ;
+  
+  
+}
+
+.Coffee-image h3{
+  margin: 0.3rem  0  0.8rem;
+  
+}
+
+.Coffee-image p{
+  font-weight: bold ;
+  color:  #652a0e;
+}
+
+.Coffee-image button{
+  border: none;
+  background-color:#652a0e ;
+  color: #fafada;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px ;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Drinks-products{
+  padding: 1rem 2rem;
+  color: #fafada;
+}
+
+.Drinks-title{
+  color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+  text-align: center;
+}
+
+.Drinks-class{
+    color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  
+}
+
+
+.Drinks-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0.4rem;
+  
+}
+
+.Drinks-image{
+  background-color:#fafada;
+  margin-top:3rem;
+  color: #652a0e;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.Drinks-image img{
+  width:100%;
+  border-radius: 8px ;
+  
+  
+}
+
+.Drinks-image h3{
+  margin: 0.3rem  0  0.8rem;
+  
+}
+
+.Drinks-image p{
+  font-weight: bold ;
+  color:  #652a0e;
+}
+
+.Drinks-image button{
+  border: none;
+  background-color:#652a0e ;
+  color: #fafada;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px ;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.Tea-products{
+  padding: 1rem 2rem;
+  color: #fafada;
+}
+
+
+.Tea-class{
+    color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  
+}
+
+
+.Tea-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0.4rem;
+  
+}
+
+.Tea-image{
+  background-color:#fafada;
+  margin-top:3rem;
+  color: #652a0e;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.Tea-image img{
+  width:100%;
+  border-radius: 8px ;
+  
+  
+}
+
+.Tea-image h3{
+  margin: 0.3rem  0  0.8rem;
+  
+}
+
+.Tea-image p{
+  font-weight: bold ;
+  color:  #652a0e;
+}
+
+.Tea-image button{
+  border: none;
+  background-color:#652a0e ;
+  color: #fafada;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px ;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Wine-products{
+  padding: 1rem 2rem;
+  color: #fafada;
+}
+
+
+.Wine-class{
+    color: #fafada;
+  font-weight:bold ;
+  font-size:2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  
+}
+
+
+.Wine-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0.4rem;
+  
+}
+
+.Wine-image{
+  background-color:#fafada;
+  margin-top:3rem;
+  color: #652a0e;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.Wine-image img{
+  width:100%;
+  border-radius: 8px ;
+  
+  
+}
+
+.Wine-image h3{
+  margin: 0.3rem  0  0.8rem;
+  
+}
+
+.Wine-image p{
+  font-weight: bold ;
+  color:  #652a0e;
+}
+
+.Wine-image button{
+  border: none;
+  background-color:#652a0e ;
+  color: #fafada;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px ;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bold;
+}
+
+.foot1{
+  padding: 5px;
+  font-size: 20px;
+  background: burlywood;
+  align-items: center ;
+  color:#652a0e;
+  margin-top: 10px;
+}
+
+.foot1 p{
+  text-align: center;
+  color:#652a0e;
+   margin-bottom: 5px;
+}
+
+.foot1 a{
+  text-decoration: none;
+  color: #fafada;
+  font-weight: bolder;
+  align-contents: center  ;
+  justify-content: flex-start;
+}

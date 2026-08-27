@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  background:#652a0e;
+  color: #fafafa;
+}
+.navbar{
+  background-color: #fafada;
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  list-style: none;
+  display:  flex;
+  gap: 1rem;
+  
+}
+
+.ti mark{
+  color:#652a0e;
+}
+
+.nav-links a{
+ text-decoration: none;
+ color: chocolate;
+}
+
+.head{
+  text-align: center;
+  color:#fafada;
+  margin:10px;
+  align-items: center;
+  
+  
+  
+}
+
+.content{
+  color:#fafada;
+  padding: 10px ;
+  margin:10px ;
+}
+article{
+  line-height: 25px ;
+}
+ article p{
+   margin-top: 10px ;
+ }
+
+.Reasons{
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+  .Reasons-lists{
+    line-height: 10px ;
+    font-size: 1rem;
+  }
+  .team-photo{
+    background-color: #fafada;
+    color:#652a0e;
+    text-align: center;
+    border-radius:20px;
+    
+  }
+  
+  .team-photo h3{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    
+  }
+  
+ 
+  
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 12px;
+  gap: 20px 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  
+  
+}
+
+.pic-gallery  img {
+  width: 100%;
+  display: flex;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  
+}
+.foot1{
+  padding: 5px;
+  font-size: 20px;
+  background: burlywood;
+  align-items: center ;
+  color:#652a0e;
+  margin-top: 10px;
+}
+
+.foot1 p{
+  text-align: center;
+  color :#652a0e;
+   margin-bottom: 5px;
+}
+
+.foot1 a{
+  text-decoration: none;
+  color: #fafada;
+  font-weight: bolder;
+  align-contents: center  ;
+  justify-content: flex-start;
+}
+
+
